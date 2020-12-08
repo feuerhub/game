@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js"></script>
+    <title>Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Game Prototype</h1>
+      <button type="button" onClick="startGame()">New Game</button>
+    </header>
+    <section>
+      <div class="row">
+        <button class="card" id="0" onClick="openCard(this.id)"></button>
+        <button class="card" id="1" onClick="openCard(this.id)"></button>
+        <button class="card" id="2" onClick="openCard(this.id)"></button>
+        <button class="card" id="3" onClick="openCard(this.id)"></button>
+        <button class="card" id="4" onClick="openCard(this.id)"></button>
+      </div>
+      <div class="row">
+        <button class="card" id="5" onClick="openCard(this.id)"></button>
+        <button class="card" id="6" onClick="openCard(this.id)"></button>
+        <button class="card" id="7" onClick="openCard(this.id)"></button>
+        <button class="card" id="8" onClick="openCard(this.id)"></button>
+        <button class="card" id="9" onClick="openCard(this.id)"></button>
+      </div>
+      <div class="score">
+        <h3>Tries:</h3>
+        <h4 id="score-number">0</h4>
+      </div>
+    </section>
+  </body>
+</html>
